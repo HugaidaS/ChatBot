@@ -67,7 +67,7 @@
   },
   "iframe": {
     "iframeOrigin": "https://d3ntq46jct13ej.cloudfront.net",
-    "shouldLoadIframeMinimized": true,
+    "shouldLoadIframeMinimized": false,
     "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
   }
 }

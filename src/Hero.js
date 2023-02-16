@@ -28,7 +28,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
+    color: '#9a2118',
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
     fontSize: 32,
     lineHeight: 1.2,
@@ -134,12 +134,15 @@ export const HeroBullets = () => {
             </List>
 
             <Group mt={30}>
-              <Button radius='xl' size='md' className={classes.control}>
-                Get started
-              </Button>
-              <Button radius='xl' size='md' className={classes.control}>
-                Source code
-              </Button>
+              <a
+                href='https://github.com/Ellinsa/ChatBot'
+                target={'_blank'}
+                rel='noreferrer'
+              >
+                <Button radius='xl' size='md' className={classes.control}>
+                  Source code
+                </Button>
+              </a>
             </Group>
           </div>
           <Image
